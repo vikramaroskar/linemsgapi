@@ -77,10 +77,10 @@ public class ViberController {
 				firstButtonObject.put("BgMediaType", "gif");
 				firstButtonObject.put("BgMedia", "http://www.url.by/test.gif");
 				firstButtonObject.put("BgLoop", true);
-				firstButtonObject.put("ActionType", "open-url");
-				firstButtonObject.put("ActionBody", "www.tut.by");
+				firstButtonObject.put("ActionType", "share-phone");
+				firstButtonObject.put("ActionBody", "none");
 				firstButtonObject.put("Image", "www.tut.by/img.jpg");
-				firstButtonObject.put("Text", "Key text");
+				firstButtonObject.put("Text", "Share phone ");
 				firstButtonObject.put("TextVAlign", "middle");
 				firstButtonObject.put("TextHAlign", "center");
 				firstButtonObject.put("TextOpacity", 60);
