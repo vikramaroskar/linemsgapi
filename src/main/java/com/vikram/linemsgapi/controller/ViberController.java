@@ -92,6 +92,7 @@ public class ViberController {
 				requestJsonObject.put("keyboard", keyboardObject);
 
 			}
+			System.out.println("message object " + requestJsonObject);
 			HttpEntity<String> request = new HttpEntity<String>(requestJsonObject.toString(), headers);
 			URI locationHeader = restTemplate.postForLocation(send_message_url, request);
 
