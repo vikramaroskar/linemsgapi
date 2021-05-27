@@ -93,7 +93,7 @@ public class ViberController {
 				
 				//override this for showing btton
 				requestJsonObject.put("min_api_version", 7);
-				requestJsonObject.put("type", "rich_media");
+				//requestJsonObject.put("type", "rich_media");
 				
 				requestJsonObject.put("keyboard", keyboardObject);
 
