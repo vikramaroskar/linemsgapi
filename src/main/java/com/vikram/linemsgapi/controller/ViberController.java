@@ -64,6 +64,7 @@ public class ViberController {
 
 			if ("pt".equalsIgnoreCase(text)) {
 				JSONObject keyboardObject = new JSONObject();
+				keyboardObject.put("Type","keyboard");
 				keyboardObject.put("DefaultHeight", true);
 				keyboardObject.put("BgColor","#FFFFFF");
 				
@@ -84,6 +85,7 @@ public class ViberController {
 				firstButtonObject.put("TextHAlign", "center");
 				firstButtonObject.put("TextOpacity", 60);
 				firstButtonObject.put("TextSize", "regular");
+				
 				
 				buttonArray.add(firstButtonObject);
 				
